@@ -1,0 +1,399 @@
+[2023-04-05 12:51:23,640] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:10:42,723] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:19:03,556] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:19:08,305] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 13:19:09,467] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 0}
+[2023-04-05 13:19:09,473] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:11,408] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:11,497] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 1}
+[2023-04-05 13:19:11,499] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:11,995] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:12,092] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 2}
+[2023-04-05 13:19:12,094] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:12,207] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:12,291] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 3}
+[2023-04-05 13:19:12,299] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:12,406] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:12,502] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 4}
+[2023-04-05 13:19:12,505] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:12,585] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:12,669] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 5}
+[2023-04-05 13:19:12,678] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:12,768] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:12,849] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2023-04-05 13:19:12,856] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:12,964] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:13,042] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 7}
+[2023-04-05 13:19:13,044] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:13,158] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:13,246] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 8}
+[2023-04-05 13:19:13,249] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:13,341] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:13,445] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 9}
+[2023-04-05 13:19:13,453] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2023-04-05 13:19:13,533] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:13,624] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 10}
+[2023-04-05 13:19:13,628] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:19:13,739] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:13,816] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 11}
+[2023-04-05 13:19:13,818] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:19:13,927] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:13,999] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 12}
+[2023-04-05 13:19:14,001] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:19:14,151] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:14,227] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 13}
+[2023-04-05 13:19:14,233] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:19:14,338] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:14,414] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 14}
+[2023-04-05 13:19:14,416] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:19:14,569] [views.py:62] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:19:14,646] [views.py:37] [views:counter] [INFO]- response result: {"code": 0, "data": 15}
+[2023-04-05 13:19:14,648] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:37:22,255] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:38:06,576] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\app_idiom\views.py changed, reloading.
+[2023-04-05 13:38:08,165] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:38:15,194] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 13:38:29,006] [log.py:241] [log:log_response] [WARNING]- Not Found: /idiom/test
+[2023-04-05 13:38:29,008] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /idiom/test HTTP/1.1" 404 2226
+[2023-04-05 13:38:29,111] [log.py:241] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2023-04-05 13:38:29,118] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2229
+[2023-04-05 13:39:55,520] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:39:57,925] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:40:32,131] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:40:33,665] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:42:20,810] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:42:22,382] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:42:25,573] [log.py:241] [log:log_response] [WARNING]- Not Found: /
+[2023-04-05 13:42:25,576] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2282
+[2023-04-05 13:44:13,688] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:44:15,281] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:44:23,144] [log.py:241] [log:log_response] [WARNING]- Not Found: /
+[2023-04-05 13:44:23,146] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2167
+[2023-04-05 13:44:40,974] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/idiom/test HTTP/1.1" 200 13
+[2023-04-05 13:45:00,260] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin HTTP/1.1" 301 0
+[2023-04-05 13:45:00,291] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2023-04-05 13:45:00,388] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+[2023-04-05 13:45:00,412] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2616
+[2023-04-05 13:45:00,416] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+[2023-04-05 13:45:00,418] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2023-04-05 13:45:00,418] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 954
+[2023-04-05 13:45:00,421] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 18575
+[2023-04-05 13:45:00,439] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2023-04-05 13:45:00,574] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2023-04-05 13:45:00,576] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2023-04-05 13:45:03,465] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'django_demo.auth_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\generic\edit.py", line 152, in post
+    if form.is_valid():
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 434, in full_clean
+    self._clean_form()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 455, in _clean_form
+    cleaned_data = self.clean()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\forms.py", line 217, in clean
+    self.user_cache = authenticate(
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\__init__.py", line 77, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\base_user.py", line 46, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 492, in get
+    num = len(clone)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 302, in __len__
+    self._fetch_all()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'django_demo.auth_user' doesn't exist")
+[2023-04-05 13:45:03,527] [basehttp.py:187] [basehttp:log_message] [ERROR]- "POST /admin/login/?next=/admin/ HTTP/1.1" 500 296343
+[2023-04-05 13:45:16,369] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+[2023-04-05 13:45:24,110] [log.py:241] [log:log_response] [ERROR]- Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1146, "Table 'django_demo.auth_user' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\python\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\admin\sites.py", line 440, in login
+    return LoginView.as_view(**defaults)(request)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\generic\base.py", line 84, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\views.py", line 67, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\generic\base.py", line 119, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\generic\edit.py", line 152, in post
+    if form.is_valid():
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 205, in is_valid
+    return self.is_bound and not self.errors
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 200, in errors
+    self.full_clean()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 434, in full_clean
+    self._clean_form()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\forms\forms.py", line 455, in _clean_form
+    cleaned_data = self.clean()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\forms.py", line 217, in clean
+    self.user_cache = authenticate(
+  File "D:\Program Files (x86)\python\lib\site-packages\django\views\decorators\debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\__init__.py", line 77, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\backends.py", line 42, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\contrib\auth\base_user.py", line 46, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 492, in get
+    num = len(clone)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 302, in __len__
+    self._fetch_all()
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 1507, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\models\sql\compiler.py", line 1361, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Program Files (x86)\python\lib\site-packages\django\db\backends\mysql\base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 148, in execute
+    result = self._query(query)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\cursors.py", line 310, in _query
+    conn.query(q)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 775, in _read_query_result
+    result.read()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\Program Files (x86)\python\lib\site-packages\pymysql\err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.ProgrammingError: (1146, "Table 'django_demo.auth_user' doesn't exist")
+[2023-04-05 13:45:24,178] [basehttp.py:187] [basehttp:log_message] [ERROR]- "POST /admin/login/?next=/admin/ HTTP/1.1" 500 296343
+[2023-04-05 13:45:35,040] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+[2023-04-05 13:46:40,361] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:46:42,168] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:46:51,607] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:46:53,246] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:46:56,544] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 13:47:13,779] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/idiom/test HTTP/1.1" 200 13
+[2023-04-05 13:47:37,768] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:47:39,390] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:47:45,612] [log.py:241] [log:log_response] [WARNING]- Not Found: /
+[2023-04-05 13:47:45,618] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2278
+[2023-04-05 13:47:54,861] [log.py:241] [log:log_response] [WARNING]- Not Found: /
+[2023-04-05 13:47:54,866] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2278
+[2023-04-05 13:48:07,222] [log.py:241] [log:log_response] [WARNING]- Not Found: /
+[2023-04-05 13:48:07,225] [basehttp.py:187] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2278
+[2023-04-05 13:48:30,116] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\urls.py changed, reloading.
+[2023-04-05 13:48:31,806] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:49:19,365] [autoreload.py:266] [autoreload:trigger_reload] [INFO]- E:\python\小程序\StudyApi\wxcloudrun\views.py changed, reloading.
+[2023-04-05 13:49:20,953] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 13:49:23,590] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 13:49:24,541] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 15}
+[2023-04-05 13:49:24,548] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 23
+[2023-04-05 13:49:29,933] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/idiom/test HTTP/1.1" 200 13
+[2023-04-05 13:51:08,883] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 13:51:22,162] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 13:51:30,303] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 15}
+[2023-04-05 13:51:30,305] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:33,489] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:33,567] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 16}
+[2023-04-05 13:51:33,568] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:36,134] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:36,211] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 17}
+[2023-04-05 13:51:36,213] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:36,864] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:36,939] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 18}
+[2023-04-05 13:51:36,941] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:37,111] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:37,189] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 19}
+[2023-04-05 13:51:37,191] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:37,320] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:37,402] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 20}
+[2023-04-05 13:51:37,403] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:37,516] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:37,584] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 21}
+[2023-04-05 13:51:37,585] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:37,706] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:37,775] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 22}
+[2023-04-05 13:51:37,776] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:37,908] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:38,001] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 23}
+[2023-04-05 13:51:38,002] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:38,110] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:38,184] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 24}
+[2023-04-05 13:51:38,189] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 13:51:38,297] [views.py:65] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2023-04-05 13:51:38,383] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 25}
+[2023-04-05 13:51:38,384] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2023-04-05 14:16:58,369] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 14:17:01,664] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2023-04-05 14:17:03,510] [views.py:40] [views:counter] [INFO]- response result: {"code": 0, "data": 25}
+[2023-04-05 14:17:03,521] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 23
+[2023-04-05 14:17:11,118] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+[2023-04-05 14:17:11,174] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+[2023-04-05 14:17:13,185] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2023-04-05 14:17:13,241] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2023-04-05 14:17:28,062] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2023-04-05 14:17:34,309] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2023-04-05 14:19:56,150] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2023-04-05 14:19:58,256] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2023-04-05 14:19:59,266] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2376
+[2023-04-05 14:21:56,876] [autoreload.py:677] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2023-04-05 14:22:01,584] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+[2023-04-05 14:22:04,050] [basehttp.py:187] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2023-04-05 14:22:04,160] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 3327
+[2023-04-05 14:22:04,172] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2023-04-05 14:22:04,184] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2023-04-05 14:22:04,184] [basehttp.py:187] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331

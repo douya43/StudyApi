@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'wxcloudrun'
+    'wxcloudrun',
+    'app_idiom',
 ]
 
 MIDDLEWARE = [
@@ -74,6 +75,8 @@ DATABASES = {
         'PORT': os.environ.get("MYSQL_ADDRESS").split(':')[1],
         'PASSWORD': os.environ.get("MYSQL_PASSWORD"),
         'OPTIONS': {'charset': 'utf8mb4'},
+       
+
     }
 }
 

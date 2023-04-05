@@ -5,3 +5,8 @@ mysql密码：1qaz@WSX
 git clone https://github.com/douya43/StudyApi.git
 
 git commit -m 'update' && git push -u origin master
+
+建表
+python manage.py makemigrations app_idiom
+
+python manage.py migrate app_idiom

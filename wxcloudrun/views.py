@@ -4,11 +4,14 @@ import logging
 from django.http import JsonResponse
 from django.shortcuts import render
 from wxcloudrun.models import Counters
+from ninja import NinjaAPI
+from app_idiom.views import router as idiom_router
 
 
 logger = logging.getLogger('log')
+api = NinjaAPI()
 
-
+@api.get("/")
 def index(request, _):
     """
     获取主页
@@ -89,3 +92,5 @@ def update_count(request):
     else:
         return JsonResponse({'code': -1, 'errorMsg': 'action参数错误'},
                     json_dumps_params={'ensure_ascii': False})
+
+api.add_router("/idiom/", idiom_router)

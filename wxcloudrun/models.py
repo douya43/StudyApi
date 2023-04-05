@@ -15,3 +15,6 @@ class Counters(models.Model):
 
     class Meta:
         db_table = 'Counters'  # 数据库表名
+
+
+
