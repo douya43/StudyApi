@@ -1,7 +1,7 @@
 mysql密码：1qaz@WSX
 邮箱密码：1qaz@WSX
 小程序密码：Houshunya@361402392
-
+github username:douya43 pass:hsy361402392douya
 git clone https://github.com/douya43/StudyApi.git
 
 git commit -m 'update' && git push -u origin master
@@ -10,3 +10,6 @@ git commit -m 'update' && git push -u origin master
 python manage.py makemigrations app_idiom
 
 python manage.py migrate app_idiom
+
+git remote set-url origin  https://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@github.com/douya43/StudyApi.git
+

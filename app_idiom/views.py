@@ -13,7 +13,7 @@ def get_teams(request):
     """
     获取团队列表
     """
-    return "hello world"
+    return "hello world dfsdf"
 
 @router.post('/exams')
 def get_exam(request):
